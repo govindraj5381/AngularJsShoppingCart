@@ -1,0 +1,7 @@
+{
+    "products": [
+      { "id": 1, "title": "Iphone6", 
+        "Company": "Apple",
+        "url" : "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-6-4.jpg" }
+    ]
+}

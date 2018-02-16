@@ -1,0 +1,25 @@
+Todays topics -
+Routing
+Forms
+Directives
+
+Angular UI router
+
+$stateProvider - to define states in routing
+
+npm install - for installing all the packages
+npm run server - for json server
+npm start 
+
+
+['ProductService', 
+    function(ProductService){
+        var self = this;
+        self.products = [];
+        self.$onInit = function(){
+            ProductService.getProducts()
+                .then(function(result){
+                    self.products = result.data;       
+                });
+        };
+    }])

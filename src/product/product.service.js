@@ -5,9 +5,19 @@ service('ProductService',
 
         return $http.get(AppConstant.urls.product);
     };
+
     this.addProduct = function(newProductInfo){
         return $http.post(AppConstant.urls.product, newProductInfo);
     };
+
+    this.searchProduct = function(title) {
+        return $http
+                .get(AppConstant.urls.product + '?title=' + title)
+                .then(function(res){
+                    return res.data
+                });
+    };
+
     this.getProductDetails = function(productId){
 return $http.get(AppConstant.urls.product + '/' + productId)
 .then(function(res){

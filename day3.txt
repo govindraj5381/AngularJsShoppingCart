@@ -1,0 +1,15 @@
+decorators
+
+webpacks
+babel loaders
+
+
+npm install -g @angular/cli
+
+ng new angular5-shopping-cart
+
+ng serve - to run
+
+JInto jose
+jintoppy@gmail.com
+9035066384
